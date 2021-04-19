@@ -51,6 +51,13 @@ class ToyCorpusTypes:
             res.append(self.make_sentence(i))
         return res
 
+    @cached_property
+    def tokens(self) -> List[str]:
+        res = []
+        for s in self.sentences:
+            res.extend(s.split())
+        return res
+
     def make_sentence(self,
                       sentence_id: int,
                       ) -> str:
@@ -123,6 +130,13 @@ class ToyCorpusEntropic:
         res = []
         for i in range(self.num_sentences):
             res.append(self.make_sentence(i))
+        return res
+
+    @cached_property
+    def tokens(self) -> List[str]:
+        res = []
+        for s in self.sentences:
+            res.extend(s.split())
         return res
 
     def make_sentence(self,
