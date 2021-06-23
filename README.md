@@ -1,7 +1,8 @@
 <div align="center">
  <img src="images/logo.png" width="250"> 
- A simple Python class for working with sequences of artificial grammar.
 </div>
+
+A simple Python class for working with sequences of artificial grammar.
 
 ## About
 
