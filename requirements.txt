@@ -1,4 +1,4 @@
 numpy==1.18.1
 matplotlib~=3.4.1
 pyitlib~=0.2.2
-https://github.com/phueb/Preppy/archive/v3.0.0.tar.gz
+https://github.com/phueb/Preppy/archive/v3.1.1.tar.gz

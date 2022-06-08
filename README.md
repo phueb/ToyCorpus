@@ -12,7 +12,7 @@ such as:
 
 1. How do the statistics of a corpus change when the vocabulary increases as more sequences are sampled?
 
-A simple script is provided that plots an information-theoretic quantity I find useful in my work, 
+A simple script is provided that plots an information-theoretic quantity I found useful in my doctoral work, 
 and which I think has the potential to explain why it might be better to train NLP models on language data in a particular order. 
 
 
